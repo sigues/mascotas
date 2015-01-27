@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'forge',
-			'username'  => 'forge',
-			'password'  => '',
+			'host'     => 'localhost',
+			'database' => 'mascotas',
+			'username' => 'root',
+			'password' => 'root',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
@@ -66,9 +66,9 @@ return array(
 		'pgsql' => array(
 			'driver'   => 'pgsql',
 			'host'     => 'localhost',
-			'database' => 'forge',
-			'username' => 'forge',
-			'password' => '',
+			'database' => 'mascotas',
+			'username' => 'mascotas',
+			'password' => 'm45c0t45',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 			'schema'   => 'public',
